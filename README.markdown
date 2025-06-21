@@ -56,8 +56,8 @@ python src/main.py
 - **Training time**: ~1-1.5 hours on a GPU.
 
 ## Results
-- **ResNet18**: ~77% accuracy
-- **ResNet50**: ~80% accuracy
+- **ResNet18**: ~80.67% accuracy
+- **ResNet50**: ~81.60% accuracy
 - See `docs/project_summary.md` for details.
 
 ## License
