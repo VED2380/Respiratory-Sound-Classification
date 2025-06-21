@@ -1,6 +1,6 @@
 # Respiratory Sound Classification Using ResNet Models
 
-This project implements ResNet18 and ResNet50 models to classify respiratory sounds (Normal, Crackles, Wheezes, Both) from the ICBHI Respiratory Sound Database (6898 samples). It achieves ~80% accuracy using 2-fold interpatient cross-validation, focal loss, and class weights to handle imbalance (Normal: 3642, Both: 506). The project includes visualizations (architecture diagrams, spectrograms, confusion matrices, radar charts) to analyze performance.
+This project implements ResNet18 and ResNet50 models to classify respiratory sounds (Normal, Crackles, Wheezes, Both) from the ICBHI Respiratory Sound Database (6898 samples). It achieves ~80% accuracy using 10-fold interpatient cross-validation, focal loss, and class weights to handle imbalance (Normal: 3642, Both: 506). The project includes visualizations (architecture diagrams, spectrograms, confusion matrices, radar charts) to analyze performance.
 
 ## Project Structure
 ```
@@ -45,7 +45,6 @@ Run the main script to train models and generate figures:
 ```bash
 python src/main.py
 ```
-- **Output**: Figures 1–7 saved in `output/figures/`.
 - **Training time**: ~1-1.5 hours on a GPU.
 
 ## Results
