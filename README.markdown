@@ -13,13 +13,6 @@ respiratory-sound-classification/
 │   │   ├── metrics.py
 │   │   ├── models.py
 │   │   ├── visualization.py
-├── output/
-│   ├── figures/
-|   |   ├── figure1_resnet_architecture.png
-│   │   ├── figure2_spectrograms.png
-│   │   ├── figure3_confusion_matrices.png
-│   │   ├── figure4_training_curves.png
-│   │   ├── figure5_classwise_performance.png
 ├── docs/
 │   ├── project_summary.md
 ├── scripts/
