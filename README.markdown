@@ -5,9 +5,7 @@ This project implements ResNet18 and ResNet50 models to classify respiratory sou
 ## Project Structure
 ```
 respiratory-sound-classification/
-├── .gitignore
 ├── README.md
-├── LICENSE
 ├── requirements.txt
 ├── src/
 │   ├── main.py
@@ -15,11 +13,13 @@ respiratory-sound-classification/
 │   │   ├── metrics.py
 │   │   ├── models.py
 │   │   ├── visualization.py
-├── data/
-│   ├── README.md
 ├── output/
 │   ├── figures/
-│   │   ├── README.md
+|   |   ├── figure1_resnet_architecture.png
+│   │   ├── figure2_spectrograms.png
+│   │   ├── figure3_confusion_matrices.png
+│   │   ├── figure4_training_curves.png
+│   │   ├── figure5_classwise_performance.png
 ├── docs/
 │   ├── project_summary.md
 ├── scripts/
